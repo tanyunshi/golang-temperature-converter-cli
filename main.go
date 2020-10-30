@@ -23,6 +23,7 @@ func main() {
 		printError(errInvalidArguments)
 	}
 
+	// fix
 	originUnit = strings.ToUpper(os.Args[1])
 
 	for {
